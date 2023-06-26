@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconocimiento Peliculas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="lista-despegable">
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="list__item">
+                            <div class="list__button">
+                                <img src="assets/home.svg" class="list__img">
+                                <a href="#" class="nav__link">Inicio</a>
+                            </div>
+                        </li>
+
+                        <li class="list__item list__item--click">
+                            <div class="list__button list__button--click">
+                                <img src="assets/genero.svg" class="list__img">
+                                <a href="#" class="nav__link">Genero</a>
+                                <img src="assets/arrow.svg" class="list__arrow">
+                            </div>
+
+                            <ul class="list__show">
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Drama</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Comedia</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Romance</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Accion</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="list__item list__item--click">
+                            <div class="list__button list__button--click">
+                                <img src="assets/tiempo.svg" class="list__img">
+                                <a href="#" class="nav__link">Año</a>
+                                <img src="assets/arrow.svg" class="list__arrow">
+                            </div>
+
+                            <ul class="list__show">
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">2000 - 2010</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">2010 - 2020</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="list__item list__item--click">
+                            <div class="list__button list__button--click">
+                                <img src="assets/movie.svg" class="list__img">
+                                <a href="#" class="nav__link">Distribuidora</a>
+                                <img src="assets/arrow.svg" class="list__arrow">
+                            </div>
+
+                            <ul class="list__show">
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Paramount</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Dreamworks</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Sony</a>
+                                </li>
+
+                                <li class="list__inside">
+                                    <a href="#" class="nav__link nav__link--inside">Fox</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        </li>
+
+                        <li class="list__item">
+                            <div class="list__button">
+                                <img src="assets/lupa.svg" class="list__img">
+                                <a href="#" class="nav__link">Buscar</a>
+                            </div>
+                        </li>
+                    </ul>
+                 </nav>
+            </td>
+            <td class="contenido">
+                <h1 class="titulo">Recomendaciones Pelis</h1>
+                <img src="assets/luna.png" class="logo">
+                <div class="texto">Podría gustarte:</div>
+                <br>
+                <input class="barra" placeholder="">          
+            </td>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
